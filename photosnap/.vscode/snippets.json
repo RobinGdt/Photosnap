@@ -1,0 +1,22 @@
+{
+  "react-component-with-hook": {
+    "scope": "javascriptreact",
+    "prefix": "comp",
+    "body": [
+      "import {styled} from 'styled-components'",
+      "",
+      "const Styled${1:ComponentName} = styled.div``;",
+      "",
+      "const ${1:ComponentName} =():JSX.Element => {",
+      "",
+      "  return (",
+      "    <Styled${1:ComponentName}>",
+      "    </Styled${1:ComponentName}>",
+      "  );",
+      "}",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "Generate a React component"
+  }
+}
