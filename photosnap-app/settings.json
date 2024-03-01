@@ -20,7 +20,7 @@
   },
   "emmet.showSuggestionsAsSnippets": true,
   "react-component-with-hook": {
-    "scope": "javascriptreact",
+    "scope": "typescriptreact",
     "prefix": "urcvvb",
     "body": [
       "import {styled} from 'styled-components'",
